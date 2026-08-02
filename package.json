@@ -23,8 +23,16 @@
     "daisyui": "^4.12.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
-    "postcss": "^8",
+    "postcss": "^8.5.25",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": "^8.5.25"
+    }
   }
 }
